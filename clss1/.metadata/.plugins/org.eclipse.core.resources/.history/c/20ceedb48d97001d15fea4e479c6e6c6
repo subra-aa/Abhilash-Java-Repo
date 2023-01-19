@@ -1,0 +1,15 @@
+package projectjava.com;
+
+public class mainclass {
+	public static void main(String[] args) {
+        bike b=new bike();
+        b.fourwheeler();
+        b.threewheeler();
+        b.twowheeler();
+        Auto a=new Auto();
+        a.threewheeler();
+        car c=new car();
+        c.fourwheeler();
+    }
+
+}
